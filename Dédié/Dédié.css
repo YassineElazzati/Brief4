@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(30, 54, 69);
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+
+
+
+.contact{
+    padding-right: 5%;
+}
+.navImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1%;
+    color:rgb(251, 138, 155);
+}
+
+#ColorSurvol:hover #LogoColor{
+    color: rgb(30, 54, 69);
+
+}
+#ColorSurvol:hover #TextColor{
+    color: rgb(251, 138, 155);
+
+}
+
+.navImage i {
+    width: 30%;
+}
+h1{
+    font-size: 1em;
+}
+
+.recherche{
+    background-color: rgb(251, 138, 155);
+}
+
+input{
+    width: 100%;
+    background-color: rgb(251, 138, 155);
+    border: none;
+    border-color: rgb(251, 138, 155);
+    font-size: 2em;
+    color: gray;
+}
+
+main{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.hautMain{
+    width: 100%;
+}
+.ServiceServeur{
+    width: 100%;
+}
+
+.LeServeur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: dashed;
+    border-left: dashed;
+    border-right: dashed;
+    border-color: grey;
+    color: rgb(30, 54, 69);
+    padding-top: 2%;
+    
+   
+}
+
+.TextServeur{
+    display :flex;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+
+
+
+.ServiceServeur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.serveurStockage,
+.serveurHaut{
+
+    border: dashed grey;
+    width: 30%;
+    height: 30%;
+    padding: 1%;
+}
+
+.serveurGame{
+    border: dashed grey;
+    width: 30%;
+    height: 30%;
+    padding: 1%;
+}
+
+.cloudBleu{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    background-color: rgb(30, 54, 69);
+    padding-top: 5%;
+}
+
+.cloudRose{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(251, 138, 155) ;
+    color: white;
+    width: 100%;
+}
+
+p{
+    display: flex;
+  justify-content: space-around;
+
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color:rgb(30, 54, 69);
+}
+.bas {
+    padding-top: 6%;
+   width: 80%;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: auto;
+    color: aliceblue;
+   
+    min-height: 200px;
+}
+@media   screen  and (max-width:960px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .hautMain{
+        display :flex;
+        flex-direction: column;
+        margin: 3%;
+    }
+
+    .ServiceServeur{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    .bas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
